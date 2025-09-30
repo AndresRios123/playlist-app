@@ -6,10 +6,10 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "build": "npx tsc --project tsconfig.json",
-    "watch": "npx tsc --project tsconfig.json --watch"
+    "build": "tsc --project tsconfig.json",
+    "watch": "tsc --project tsconfig.json --watch"
   },
-  "devDependencies": {
+  "dependencies": {
     "typescript": "^5.9.2"
   }
 }
