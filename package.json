@@ -6,8 +6,8 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "build": "tsc --project tsconfig.json",
-    "watch": "tsc --project tsconfig.json --watch"
+    "build": "npx tsc --project tsconfig.json",
+    "watch": "npx tsc --project tsconfig.json --watch"
   },
   "devDependencies": {
     "typescript": "^5.9.2"
